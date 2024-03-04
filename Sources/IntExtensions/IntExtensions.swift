@@ -1,7 +1,7 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-extension Int {
+public extension Int {
     var isEven: Bool {
         self.isMultiple(of: 2)
     }
