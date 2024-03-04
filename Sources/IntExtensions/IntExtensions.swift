@@ -2,11 +2,11 @@
 // https://docs.swift.org/swift-book
 
 public extension Int {
-    var isEven: Bool {
+    public var isEven: Bool {
         self.isMultiple(of: 2)
     }
     
-    var isOdd: Bool {
+    public var isOdd: Bool {
         !self.isMultiple(of: 2)
     }
 }
